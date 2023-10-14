@@ -1,0 +1,76 @@
+/* Increase padding for the navbar */
+.navbar {
+  padding: 1rem 2rem;
+}
+
+/* Change the background color for the nav element */
+nav {
+  background-color: var(--new-nav-color); /* Change to your desired color or define the --new-nav-color variable */
+}
+
+/* Modify the width of the navbar-nav */
+.navbar-nav {
+  width: auto; /* Adjust width as needed */
+}
+
+/* Adjust styles for the navbar-brand */
+.navbar-brand {
+  line-height: 1.5; /* Increase line-height for better vertical alignment */
+  margin-right: 0.5rem; /* Reduce right margin as needed */
+}
+
+/* Update styles for SVG within navbar-brand */
+.navbar-brand svg {
+  height: 50px; /* Change the height of the SVG */
+  width: auto; /* Allow width to adjust automatically */
+  vertical-align: middle;
+}
+
+/* Modify styles for nav-links in the navbar */
+.navbar-light .navbar-nav .nav-link {
+  color: var(--new-text-color); /* Change to your desired text color or define the --new-text-color variable */
+  padding: 10px; /* Adjust padding as needed */
+  margin: 0 15px !important; /* Adjust margin as needed */
+}
+
+/* Change the background color for the active nav-link */
+.navbar-light .navbar-nav .active {
+  background-color: #ffcc00; /* Change to your desired background color */
+}
+
+/* Modify styles for the active nav-link */
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ff0000; /* Change to your desired text color */
+  font-weight: 700;
+}
+
+/* Update styles for the nav-link underline */
+.navbar-light .navbar-nav .nav-link::before {
+  background-color: currentColor; /* Use the text color as the underline color */
+  bottom: -2px; /* Adjust the distance of the underline from the text */
+  height: 2px; /* Increase the underline height */
+}
+
+/* Change the text color when hovering over a nav-link */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+/* Adjust the underline animation when hovering over a nav-link */
+.navbar-light .navbar-nav .nav-link:hover::before {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+/* Modify styles for SVG elements within nav-links */
+.nav-link svg {
+  width: auto;
+  height: 30px; /* Adjust the height of SVG elements */
+  vertical-align: text-top;
+}
+
+/* Change the text color when hovering over a nav-link */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #dc143c;
+}
